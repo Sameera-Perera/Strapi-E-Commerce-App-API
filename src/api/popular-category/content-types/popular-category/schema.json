@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_categories",
+  "info": {
+    "singularName": "popular-category",
+    "pluralName": "popular-categories",
+    "displayName": "PopularCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

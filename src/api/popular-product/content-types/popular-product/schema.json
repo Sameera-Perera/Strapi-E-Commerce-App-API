@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_products",
+  "info": {
+    "singularName": "popular-product",
+    "pluralName": "popular-products",
+    "displayName": "PopularProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}
